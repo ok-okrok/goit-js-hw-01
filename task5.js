@@ -1,22 +1,27 @@
 let country = prompt('Please enter the country');
 country = country.toLowerCase();
+const China = 'китай'
+const Chily = 'чили'
+const Austrlia = 'австралия'
+const India = 'индия'
+const Yamaika = 'ямайка'
 
 let price;
 
 switch (country) {
-    case 'китай':
+    case China:
         price = 100;
         break;
-    case 'чили':
+    case Chily:
         price = 250;
         break;
-    case 'австралия':
+    case Austrlia:
         price = 170;
         break;
-    case 'индия':
+    case India:
         price = 80;
         break;
-    case 'ямайка':
+    case Yamaika:
         price = 120;
         break;
     default:
